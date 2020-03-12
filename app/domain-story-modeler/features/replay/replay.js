@@ -127,6 +127,7 @@ export function initReplay(inCanvas, inSelection) {
           } else {
             allObjects.push(child);
           }
+          allObjects.push(currentgroup);
         });
         i = groupObjects.length - 1;
       }
